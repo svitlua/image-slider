@@ -1,0 +1,40 @@
+{
+   "slider":[
+      {
+         "hero":"https://placeimg.com/640/480/people/grayscale",
+         "text":"People are here",
+         "image":"https://placeimg.com/150/150/people"
+      },
+      {
+         "hero":"https://placeimg.com/640/480/arch/grayscale",
+         "text":"Architecture is here",
+         "image":"https://placeimg.com/150/150/arch"
+      },
+      {
+         "hero":"https://placeimg.com/640/480/animals/grayscale",
+         "text":"Animals are here",
+         "image":"https://placeimg.com/150/150/animals"
+      },
+      {
+         "hero":"https://placeimg.com/640/480/tech/grayscale",
+         "text":"Tech is here",
+         "image":"https://placeimg.com/150/150/tech"
+      },
+      {
+         "hero":"https://picsum.photos/g/640/480/?random",
+         "text":"Random is here",
+         "image":"https://picsum.photos/150/?random"
+      },
+      {
+         "hero":"https://picsum.photos/g/640/480/?image=304",
+         "text":"Random again is here",
+         "image":"https://picsum.photos/150/?image=23"
+      },
+      {
+         "hero":"https://picsum.photos/g/640/480/?image=13",
+         "text":"Random is here",
+         "image":"https://picsum.photos/150/?image=3"
+      }
+   ]
+
+}

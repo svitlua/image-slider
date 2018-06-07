@@ -1,0 +1,91 @@
+.app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.app-title{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #39CCCC;
+}
+
+.slider-container{
+  margin: auto;
+  background-color: #ccc;
+  position: relative;
+  width: 640px;
+  height: 480px;
+}
+
+.slide{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  width: 640px;
+  height: 480px;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.slide-opacity{
+  opacity: 0.5;
+}
+
+.slide-info{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 440px;
+  background-color:rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  max-height: 200px;
+  height: 100%;
+  transition: opacity 1s ease-out;
+}
+
+.slide-info--image {
+  margin: 1rem 1rem;
+  display: flex;
+  align-self: flex-start;
+  width: 150px;
+  height: 150px;
+  background: #ccc;
+}
+.slide-info--title{
+  color: white;
+  padding: 1rem .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  font-size: 1.2rem;
+}
+
+.button{
+  position: absolute;
+  top: 45%;
+  color: #39CCCC;
+  opacity: 0.7;
+  transition: 0.2s ease-in-out;
+  font-size: 2.5em;
+}
+
+.button:hover{
+  color: #fff;
+}
+
+.button-next{
+  right: 30px;
+}
+.button-prev{
+  left: 30px;
+}
+
+.counter{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
