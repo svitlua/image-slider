@@ -2,6 +2,7 @@
   "name": "image-slider",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://svitlua.github.io/image-slider/",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",

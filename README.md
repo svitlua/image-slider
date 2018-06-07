@@ -1,6 +1,9 @@
 # Image Slider
 Image Slider Application on ReactJS
 
+### Web Page
+https://svitlua.github.io/image-slider/
+
 ## Functionality
 - The slider has several tiles, each with a hero image, and then an overlay on that with a smaller image and a caption.
 - The slider auto-rotates slides every 3 seconds.
